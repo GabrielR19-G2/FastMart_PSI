@@ -31,7 +31,6 @@ public class PruebasProveedor {
         //Interacción con la base de datos
         Proveedor proveedor = new Proveedor("Sabritas", "Del valle #632, colonia centro", "6444285547", "sabritas@outlook.com");
         manager.persist(proveedor);
-        
         //Le indicamos al EntityManager que cierre la conexión
         manager.getTransaction().commit();
     
